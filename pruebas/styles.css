@@ -28,7 +28,7 @@ nav {
     display: grid;
     place-items: center;
     justify-content: space-between;
-    background: #2980b9;
+    background: #5ef3ff;
 }
 .ul-nav {
     display: flex;
@@ -38,7 +38,8 @@ nav {
 
 
 header {
-    background: #3498db;
+    background: #b4d1d7;
+    padding: 0 10%;
 }
 
 
@@ -47,27 +48,35 @@ section, header {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 300px;
+    height: auto;
+    
+   
 }
 
 .content {
-    background: #bdc3c7;
+    background: #b4d1d7;
+    
 }
 
 .signup {
-    background: #7f8c8d;
+    background: #b4d1d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    
 }
 
 .feature {
-    background: #e74c3c;
+    background: #b4d1d7;
 }
 
 .feature.first {
-    background-color: #f39c12;
+    background-color: #b4d1d7;
 }
 
 .feature:last-child {
-    background: #9b59b6;
+    background: #b4d1d7;
 }
 
 @media screen and (min-width:992px) {
